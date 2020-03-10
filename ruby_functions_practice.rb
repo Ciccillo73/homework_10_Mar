@@ -92,3 +92,8 @@ end
 def volume_cube(side)
   return side ** 3
 end
+
+def volume_sphere(radius)
+ formula = (4/3.to_f) * 3.14 * radius ** 3
+ return formula.round(2)
+end
