@@ -37,25 +37,25 @@ def number_to_full_month_name(num)
     return "January"
   when 2
     return "February"
-  when 1
+  when 3
     return "March"
-  when 1
+  when 4
     return "April"
-  when 1
+  when 5
     return "May"
-  when 1
+  when 6
     return "June"
-  when 1
+  when 7
     return "July"
-  when 1
+  when 8
     return "August"
-  when 1
+  when 9
     return "September"
-  when 1
+  when 10
     return "October"
-  when 1
+  when 11
     return "November"
-  when 1
+  when 12
     return "December"
   end
 
