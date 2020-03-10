@@ -30,3 +30,33 @@ end
 def add_string_as_number(string1, string2)
   return string1.to_i + string2.to_i
 end
+
+def number_to_full_month_name(num)
+  case num
+  when 1
+    return "January"
+  when 2
+    return "February"
+  when 1
+    return "March"
+  when 1
+    return "April"
+  when 1
+    return "May"
+  when 1
+    return "June"
+  when 1
+    return "July"
+  when 1
+    return "August"
+  when 1
+    return "September"
+  when 1
+    return "October"
+  when 1
+    return "November"
+  when 1
+    return "December"
+  end
+
+end
